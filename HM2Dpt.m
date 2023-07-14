@@ -64,8 +64,8 @@ Vy       = zeros(nx  ,ny+1); % on the grid
 qDx      = zeros(nx+1,ny  ); % on the grid same with Vx
 qDy      = zeros(nx  ,ny+1); % on the grid same with Vy
 RPf      = zeros(nx  ,ny  ); % central of cell
-Rx       = zeros(nx-1,ny  ); % on the node 
-Ry       = zeros(nx  ,ny-1); % on the node 
+Rx       = zeros(nx-1,ny  ); % on the grid same with Vx
+Ry       = zeros(nx  ,ny-1); % on the grid same with Vy
 
 %% Initial conditions
 radc     = ((Xc - xsize*.5)/lam/4).^2 + ((Yc - ysize*.25)/lam).^2; % ellipse zone
